@@ -6,20 +6,20 @@
 
 ## Supported Test Protocols in JMeter
 
-### 1. HTTP Request
-### 2. FTP (File Transfer Protocol)
+#### 1. HTTP Request
+#### 2. FTP (File Transfer Protocol)
 - **Uploading files**
 - **Downloading files**
 - **Managing remote server files**
-### 3. JDBC (Java Database Connectivity)
-### 4. SMTP (Simple Mail Transfer Protocol)
-### 5. SOAP API (Simple Object Access Protocol)
-### 6. REST API (Representational State Transfer)
-### 7. TCP (Transmission Control Protocol)
-### 8. UDP (User Datagram Protocol)
-### 9. JMS (Java Message Service)
-### 10. DAP (Lightweight Directory Access Protocol)
-### 11. SMTP, POP3, and IMAP
+#### 3. JDBC (Java Database Connectivity)
+#### 4. SMTP (Simple Mail Transfer Protocol)
+#### 5. SOAP API (Simple Object Access Protocol)
+#### 6. REST API (Representational State Transfer)
+#### 7. TCP (Transmission Control Protocol)
+#### 8. UDP (User Datagram Protocol)
+#### 9. JMS (Java Message Service)
+#### 10. DAP (Lightweight Directory Access Protocol)
+#### 11. SMTP, POP3, and IMAP
 
 ## Types of Load Tests
 
