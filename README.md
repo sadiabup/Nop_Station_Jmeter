@@ -160,12 +160,22 @@ JMeter is an open-source tool designed for performance and load testing of web a
 ### 3. Write and Execute Test Cases
 - Implement test scripts and execute them to simulate real traffic.
 
+![Image](https://github.com/user-attachments/assets/d2b3fbcb-0546-47b4-8d49-ce4428671758)
+
 ### 4. Analyze Test Reports
 - Examine key performance metrics such as:
   - **Throughput** (data processed per second)
   - **Response time**
   - **Error rates**
   - **System stability**
+
+    ![Image](https://github.com/user-attachments/assets/923484f8-4ad3-429c-a192-6f06e1c56705)
+
+
+![Image](https://github.com/user-attachments/assets/9c2e6346-b616-4810-b032-9ea3edbdd328)
+
+
+![Image](https://github.com/user-attachments/assets/728c5aa1-1458-4a94-ace8-97a7f366a9d3)
 
 ---
 
