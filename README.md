@@ -187,6 +187,13 @@ JMeter is an open-source tool designed for performance and load testing of web a
 - **Server IP:** `test460.nop-station.com`
 - **Path:** Defines the API endpoint being tested.
 
+---
+
+##  References
+- Mentor: Md. Al Foysal Rabbi
+  - **SQA Engineer**
+  - **Brain Station 23**
+  - ![LinkedIn Logo](https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png) 
 
 
 
