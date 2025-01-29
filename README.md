@@ -1,8 +1,49 @@
 # Non functional Testing with JMeter
+## Overview
+JMeter is an open-source tool designed for performance and load testing of web applications, APIs, and other services. This guide details the step-by-step installation process of Java JDK, Maven, and JMeter, followed by an in-depth exploration of JMeter's testing capabilities. It covers different test types, load models, and result analysis techniques to help users optimize system performance.
+
 ### Test Server URL
 [https://test460.nop-station.com/en/](https://test460.nop-station.com/en/)
+
 ### Tools
-**JMeter 5.6.3**
+- Java JDK 23.0.1
+- Maven 3.9.9
+- JMeter 5.6.3
+
+## 1. Installation Process:
+
+### Java JDK Installation
+1. Visit: [Oracle Java Download](https://www.oracle.com/bd/java/technologies/downloads/)
+2. Choose **JDK 23** and select **x64 Installer** for Windows.
+3. Extract the downloaded file and move it to a desired directory.
+4. Copy the path up to the `bin` folder and save it as a **System Environment Variable**.
+5. Verify installation by running the following command in the terminal:
+   ```sh
+   java --version
+   ```
+
+### Apache Maven Installation
+1. Visit: [Maven Download](https://maven.apache.org/download.cgi)
+2. Choose **Binary zip archive** from the list.
+3. Extract the downloaded file.
+4. Copy the path up to the `bin` folder and save it as a **System Environment Variable**.
+5. Verify installation by running the following command in the terminal:
+   ```sh
+   mvn --version
+   ```
+
+### JMeter Installation
+1. Visit: [JMeter Download](https://jmeter.apache.org/download_jmeter.cgi)
+2. Choose the **zip file** from the binaries.
+3. Extract the downloaded file.
+4. Copy the path up to the `bin` folder and save it as a **System Environment Variable**.
+5. Verify installation by running the following command in the terminal:
+   ```sh
+   jmeter -v
+   ```
+
+---
+
 
 ## Supported Test Protocols in JMeter
 
@@ -107,19 +148,24 @@
 
 ---
 
-## Project Workflow
+
+##  Creating a JMeter Test Project
 
 ### 1. Plan the Test
-- Define objectives and testing parameters.
+- Define objectives and expected system behavior.
 
-### 2. Decide on the Number of Users
-- Determine concurrent users (e.g., 40 users for simulation).
+### 2. Configure Users
+- Decide the number of users to simulate (e.g., 10 users).
 
-### 3. Write and Run Test Cases
-- Define test scenarios and execute tests.
+### 3. Write and Execute Test Cases
+- Implement test scripts and execute them to simulate real traffic.
 
-### 4. Review the Test Report
-- Analyze metrics like throughput, response time, and errors.
+### 4. Analyze Test Reports
+- Examine key performance metrics such as:
+  - **Throughput** (data processed per second)
+  - **Response time**
+  - **Error rates**
+  - **System stability**
 
 ---
 
