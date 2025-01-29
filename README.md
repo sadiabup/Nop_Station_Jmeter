@@ -1,4 +1,4 @@
-# Nonfunctional Testing with JMeter
+# Non functional Testing with JMeter
 ### Test Server URL
 [https://test460.nop-station.com/en/](https://test460.nop-station.com/en/)
 ### Tools
